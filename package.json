@@ -9,7 +9,7 @@
   ],
   "dependencies": {
     "@types/node": "^14.17.1",
-    "detritus-utils": "^0.4.0",
+    "detritus-utils": "*",
     "ws": "^7.4.6"
   },
   "devDependencies": {
@@ -18,9 +18,8 @@
   },
   "peerDependencies": {
     "erlpack": "^0.1.3",
-    "libsodium-wrappers": "^0.7.8",
+    "libsodium-wrappers": "^0.7.13",
     "pako": "^1.0.11",
-    "sodium": "^3.0.2",
     "tweetnacl": "^1.0.3",
     "uws": "10.148.1"
   },
@@ -47,7 +46,6 @@
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "npm run build",
     "typedoc": "typedoc"
   },
   "repository": {
